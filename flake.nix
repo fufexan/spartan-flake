@@ -8,11 +8,6 @@
       url = "github:nix-community/dream2nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    spartan = {
-      url = "github:WaletLab/Spartan";
-      flake = false;
-    };
   };
 
   outputs = inputs @ {
@@ -34,7 +29,6 @@
       lib.evalModules {
         specialArgs = {
           inherit (inputs) dream2nix;
-          src = inputs.spartan;
           packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
         };
         modules = [

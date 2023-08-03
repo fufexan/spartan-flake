@@ -1,0 +1,31 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "art": {
+        "sha256": "882e6b5a4c6045c6dace31147c0b8522c8ca70177a5922f172733d116123a187",
+        "url": "https://files.pythonhosted.org/packages/52/29/8e0585897a9b1ae752598b10863716694716b115b1983770aa302948945d/art-6.0-py3-none-any.whl",
+        "version": "6.0"
+      },
+      "spartan": {
+        "sha256": "3b8445bec6b3d7779d7d2874263996d2f39c7270340c986e19829d9bad825fe2",
+        "url": "https://github.com/WaletLab/Spartan/archive/2ee6b4cb782333c9523962318494943029a87b0c.tar.gz",
+        "version": "0.0.4"
+      },
+      "tabulate": {
+        "sha256": "024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f",
+        "url": "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl",
+        "version": "0.9.0"
+      }
+    },
+    "targets": {
+      "default": {
+        "art": [],
+        "spartan": [
+          "art",
+          "tabulate"
+        ],
+        "tabulate": []
+      }
+    }
+  }
+}

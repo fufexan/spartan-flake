@@ -136,24 +136,7 @@
     "root": {
       "inputs": {
         "dream2nix": "dream2nix",
-        "nixpkgs": "nixpkgs",
-        "spartan": "spartan"
-      }
-    },
-    "spartan": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1689278443,
-        "narHash": "sha256-O4RFvsaz13edfSh0JjmW0vOccnA0DJhuGYKdm62CX+I=",
-        "owner": "WaletLab",
-        "repo": "Spartan",
-        "rev": "2ee6b4cb782333c9523962318494943029a87b0c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "WaletLab",
-        "repo": "Spartan",
-        "type": "github"
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {
