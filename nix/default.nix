@@ -24,12 +24,9 @@ in {
   name = "spartan";
   version = "0.0.4+date=2023-07-13";
 
-  mkDerivation = {inherit src;};
-
-  buildPythonPackage = {
-    pythonImportsCheck = [
-      config.name
-    ];
+  mkDerivation = {
+    inherit src;
+    patches = [./setup.patch];
   };
 
   pip = {
